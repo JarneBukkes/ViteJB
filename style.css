@@ -1,0 +1,85 @@
+:root {
+  --swiper-navigation-color: black  ;
+  --swiper-pagination-color: white;
+}
+
+.swiper {
+  width: 70%;
+  margin-top: -250px;
+  height: 700px;
+  position: absolute;
+z-index: 1;}
+
+.swiper-slide img {
+  display: block;
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+}
+body{
+font-family: Helvetica;
+
+
+}
+h1{
+  font-size: 4rem;
+  font-family: Helvetica;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+h2{
+  color: black;
+  text-align: center;
+
+
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif, bold
+}
+p{
+  text-align: center;
+}
+html {
+  font: 300 100%/1.5 Ubuntu, sans-serif;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.header {
+  padding: 10px 16px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 48%, rgba(0,212,255,1) 100%);
+  color: #f1f1f1;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+.openingsuren{
+  background-color: black;
+  color: white;
+  font-size: 3rem;
+  padding: 2%;
+}
+#sale{
+  position: relative;
+  width: 20%;
+  top: 20px;
+  left:130vh;
+  z-index: 3;
+}
+
+#contact{
+  font-family: Arial;
+text-align:  center;
+padding:2%;
+font-size: 3rem;
+color: black
+}
