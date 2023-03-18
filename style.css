@@ -83,3 +83,6 @@ padding:2%;
 font-size: 3rem;
 color: black
 }
+::placeholder {
+  color: gray;
+}
