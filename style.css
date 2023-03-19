@@ -1,88 +1,115 @@
 :root {
-  --swiper-navigation-color: black  ;
-  --swiper-pagination-color: white;
+    --swiper-navigation-color: black;
+    --swiper-pagination-color: white;
 }
 
 .swiper {
-  width: 70%;
-  margin-top: -250px;
-  height: 700px;
-  position: absolute;
-z-index: 1;}
+    width: 70%;
+    margin-top: -250px;
+    height: 700px;
+    position: absolute;
+    z-index: 1;
+}
 
 .swiper-slide img {
-  display: block;
-  width: 80%;
-  height: 100%;
-  object-fit: cover;
+    display: block;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
 }
-body{
-font-family: Helvetica;
-
-
+body {
+    font-family: Helvetica;
 }
-h1{
-  font-size: 4rem;
-  font-family: Helvetica;
-  margin-bottom: 2%;
-  margin-top: 2%;
+h1 {
+    font-size: 4rem;
+    font-family: Helvetica;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
-h2{
-  color: black;
-  text-align: center;
+h2 {
+    color: black;
+    text-align: center;
 
-
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  font-size: 3rem;
-  font-family: Arial, Helvetica, sans-serif, bold
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif, bold;
 }
-p{
-  text-align: center;
+p {
+    text-align: center;
 }
 html {
-  font: 300 100%/1.5 Ubuntu, sans-serif;
-  color: #333;
-  overflow-x: hidden;
+    font: 300 100%/1.5 Ubuntu, sans-serif;
+    color: #333;
+    overflow-x: hidden;
 }
 
 .header {
-  padding: 10px 16px;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 48%, rgba(0,212,255,1) 100%);
-  color: #f1f1f1;
+    padding: 10px 16px;
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(9, 9, 121, 1) 48%,
+        rgba(0, 212, 255, 1) 100%
+    );
+    color: #f1f1f1;
 }
 
-
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .sticky + .content {
-  padding-top: 102px;
+    padding-top: 102px;
 }
-.openingsuren{
-  background-color: black;
-  color: white;
-  font-size: 3rem;
-  padding: 2%;
+.openingsuren {
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    padding: 2%;
 }
-#sale{
-  position: relative;
-  width: 20%;
-  top: 20px;
-  left:130vh;
-  z-index: 3;
+#sale {
+    position: relative;
+    width: 20%;
+    top: 20px;
+    left: 130vh;
+    z-index: 3;
 }
 
-#contact{
-  font-family: Arial;
-text-align:  center;
-padding:2%;
-font-size: 3rem;
-color: black
+#contact {
+    font-family: Arial;
+    text-align: center;
+    padding: 2%;
+    font-size: 3rem;
+    color: black;
 }
 ::placeholder {
-  color: gray;
+    color: gray;
+}
+
+.wie {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(
+        90deg,
+        rgb(227, 86, 88) 0%,
+        rgb(183, 29, 29) 48%,
+        rgb(163, 27, 79) 100%
+    );
+    color: white;
+    padding-left: 5%;
+    padding: 5%;
+    font-size: 22px;
+}
+
+.fabriektest {
+    width: 20%;
+    text-align: center;
+}
+
+#map {
+    position: absolute;
 }
